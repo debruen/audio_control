@@ -1,12 +1,12 @@
 {
-  "name": "i",
+  "name": "audio_control",
   "version": "0.0.0",
-  "description": "interface",
+  "description": "audio io control",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "git+https://github.com/debruen/i.git",
+  "repository": "git+https://github.com/debruen/audio_control.git",
   "keywords": [
     "interface"
   ],
@@ -16,6 +16,6 @@
     "electron": "^19.0.4"
   },
   "dependencies": {
-    "p": "debruen/p"
+    "audio": "debruen/audio"
   }
 }
